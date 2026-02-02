@@ -79,7 +79,7 @@
                 </Style>
             </DataGrid.RowStyle>
             <DataGrid.Columns>
-                <DataGridTextColumn Width="180" Header="ArchiveStartDateTime" Binding="{Binding ArchiveStartDateTimeDisplay, StringFormat=G}" SortMemberPath="ArchiveStartDateTime" Tag="ArchiveStartDateTime">
+                <DataGridTextColumn Width="180" Header="ArchiveStartDateTime" Binding="{Binding ArchiveStartDateTimeDisplay, StringFormat=G}" SortMemberPath="ArchiveStartDateTime">
                     <DataGridTextColumn.CellStyle>
                         <Style TargetType="DataGridCell">
                             <Setter Property="Padding" Value="4,0,4,0" />
@@ -87,12 +87,12 @@
                         </Style>
                     </DataGridTextColumn.CellStyle>
                 </DataGridTextColumn>
-                <DataGridTextColumn Width="120" Header="ArchivedCount" Binding="{Binding ArchivedCountDisplay}" SortMemberPath="ArchivedCount" Tag="ArchivedCount" />
-                <DataGridTextColumn Width="140" Header="Duration" Binding="{Binding DurationDisplay}" SortMemberPath="Duration" Tag="Duration" />
-                <DataGridTextColumn Width="220" Header="InteractionId" Binding="{Binding InteractionIdDisplay}" SortMemberPath="InteractionId" Tag="InteractionId" />
-                <DataGridTextColumn Width="180" Header="InteractionStartTime" Binding="{Binding InteractionStartTimeDisplay, StringFormat=G}" SortMemberPath="InteractionStartTime" Tag="InteractionStartTime" />
-                <DataGridTextColumn Width="180" Header="InteractionStopTime" Binding="{Binding InteractionStopTimeDisplay, StringFormat=G}" SortMemberPath="InteractionStopTime" Tag="InteractionStopTime" />
-                <DataGridTextColumn Width="160" Header="InteractionDuration" Binding="{Binding InteractionDurationDisplay}" SortMemberPath="InteractionDuration" Tag="InteractionDuration" />
+                <DataGridTextColumn Width="120" Header="ArchivedCount" Binding="{Binding ArchivedCountDisplay}" SortMemberPath="ArchivedCount" />
+                <DataGridTextColumn Width="140" Header="Duration" Binding="{Binding DurationDisplay}" SortMemberPath="Duration" />
+                <DataGridTextColumn Width="220" Header="InteractionId" Binding="{Binding InteractionIdDisplay}" SortMemberPath="InteractionId" />
+                <DataGridTextColumn Width="180" Header="InteractionStartTime" Binding="{Binding InteractionStartTimeDisplay, StringFormat=G}" SortMemberPath="InteractionStartTime" />
+                <DataGridTextColumn Width="180" Header="InteractionStopTime" Binding="{Binding InteractionStopTimeDisplay, StringFormat=G}" SortMemberPath="InteractionStopTime" />
+                <DataGridTextColumn Width="160" Header="InteractionDuration" Binding="{Binding InteractionDurationDisplay}" SortMemberPath="InteractionDuration" />
             </DataGrid.Columns>
         </DataGrid>
 
