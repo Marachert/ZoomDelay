@@ -37,5 +37,5 @@ public abstract class ResultRowBase
 
     public TimeSpan? InteractionDurationDisplay { get; protected set; }
 
-    public string TooltipText { get; protected set; } = string.Empty;
+    public string TooltipText { get; internal set; } = string.Empty;
 }
