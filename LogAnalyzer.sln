@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAnalyzer.App", "LogAnalyzer.App\LogAnalyzer.App.csproj", "{89524FA6-2513-4777-B257-BD587FC075A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAnalyzer.Core", "LogAnalyzer.Core\LogAnalyzer.Core.csproj", "{BCF0436A-B70B-4E29-8041-2424AA9F9670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAnalyzer.Infrastructure", "LogAnalyzer.Infrastructure\LogAnalyzer.Infrastructure.csproj", "{B94425A2-192A-4BCA-99A2-89F87313E75B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAnalyzer.Tests", "LogAnalyzer.Tests\LogAnalyzer.Tests.csproj", "{FC22E6B5-0286-48AC-86C9-1A49AA25EFFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89524FA6-2513-4777-B257-BD587FC075A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89524FA6-2513-4777-B257-BD587FC075A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89524FA6-2513-4777-B257-BD587FC075A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89524FA6-2513-4777-B257-BD587FC075A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF0436A-B70B-4E29-8041-2424AA9F9670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF0436A-B70B-4E29-8041-2424AA9F9670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF0436A-B70B-4E29-8041-2424AA9F9670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF0436A-B70B-4E29-8041-2424AA9F9670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94425A2-192A-4BCA-99A2-89F87313E75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94425A2-192A-4BCA-99A2-89F87313E75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94425A2-192A-4BCA-99A2-89F87313E75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94425A2-192A-4BCA-99A2-89F87313E75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC22E6B5-0286-48AC-86C9-1A49AA25EFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC22E6B5-0286-48AC-86C9-1A49AA25EFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC22E6B5-0286-48AC-86C9-1A49AA25EFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC22E6B5-0286-48AC-86C9-1A49AA25EFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
